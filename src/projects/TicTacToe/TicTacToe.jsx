@@ -5,7 +5,7 @@ import { Square } from './components/Square.jsx';
 import { TURNS } from './constants.js';
 import { checkWinnerFrom, checkEndGame } from './board.js';
 import { WinnerModal } from './components/WinnerModal.jsx';
-
+import './styles.css';
 export const TicTacToe = () => {
   const [board, setBoard] = useState(Array(9).fill(null));
   const [turn, setTurn] = useState(TURNS.X);
