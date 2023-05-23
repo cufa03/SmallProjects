@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import { Square } from '../components/Square.jsx';
 export function WinnerModal({ winner, resetGame }) {
   if (winner === null) return null;
